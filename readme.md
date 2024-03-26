@@ -258,4 +258,133 @@ sumup:<br>
 ==========================================================================================
 
 
+                        Complete All Task   <start>
+==========================================================================================
+
+-------------------------------------------------------------------------------
+///* Task 1 :<br>
+// Declare an array<br>
+// Declare an array with 5 elements containing fruits<br>
+// console log the 3rd index element<br>
+// change the value of the 2nd index element to jambura<br>
+// console log the final array<br>
+<br>
+const FruitsName = ["mango", "pineapple", "jackfruits", "banana", "orange"]<br>
+console.log(FruitsName[3]);<br>
+FruitsName[2] = "jambura"<br>
+console.log(FruitsName);<br>
+/// Task 1 End ///<br>
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
+/// Task 2 : Add or remove elements  <start> /// <br>
+<br>
+// Declare an array of 3 tourist destinations<br>
+// Add a new tourist destination to your tourist array<br>
+// Add two more to your array<br>
+// Remove the last tourist destination you have added<br>
+// display the final array as output<br>
+<br>
+const distination = ['coxsbazar', 'rangamati',"bandorban"]<br>
+distination.push("hatia")<br>
+distination.push("kuakata", "norshindi")<br>
+distination.pop()<br>
+console.log(distination);<br>
+
+/// Task 2 : Add or remove elements  <End> ///<br>
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+<br>
+/// Task 3 :  Checking Array Membership with ‘includes’ <Start> ///<br>
+<br>
+// Create an array of books containing different book.<br>
+<br>
+// Use the includes method to check if the array contains a javascript book.<br>
+<br>
+// Print a message to the console indicating whether the element is present in the array or not.<br>
+<br>
+const Books = ['bangla','english', "religion", 'math', 'science']<br>
+console.log(Books.includes("Javascript"));<br>
+if (Books.includes("Javascript")){<br>
+    console.log("yes, the book is present in arry ");<br>
+}else{<br>
+    console.log("No, the book is absent in array")<br>
+}<br>
+/// Task 3 : Checking Array Membership with ‘includes’  <End> ///
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+/// Task 4 : Checking if it's an Array  <Start> ///<br>
+<br>
+// Create different variables, each containing either an array or a non-array value.<br>
+<br>
+// Now use isArray to check if each variable is an array.<br>
+<br>
+// Print a message to the console indicating whether each variable is an array or not.<br>
+<br>
+const age = 25;<br>
+const height = []<br>
+const names = ["a","b","c"]<br>
+// console.log(Array.isArray(age)); // false // just aemne liksi mone rakar jonno <br>
+// console.log(Array.isArray(height)); // true // just aemne liksi mone rakar jonno <br>
+// console.log(Array.isArray(names)); // false // just aemne liksi mone rakar jonno <br>
+<br>
+if (Array.isArray(age)){<br>
+    console.log("its an array")<br>
+}else{<br>
+    console.log("its not an array");<br>
+}<br>
+<br>
+if (Array.isArray(height)){<br>
+    console.log("its an array")<br>
+}else{<br>
+    console.log("its not an array");<br>
+}<br>
+<br>
+if (Array.isArray(names)){<br>
+    console.log("its an array")<br>
+}else{<br>
+    console.log("its not an array");<br>
+}<br>
+/// Task 4 : Checking if it's an Array  <End> ///
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+/// Task 5 : Combining Arrays  <Start> ///<br>
+
+// Create two arrays of your choice.<br>
+// Use the concat method to combine the two arrays into a new array.<br>
+// Print both the original arrays and the combined array using console.log().<br>
+// const perfumes = ['sweet','hot']<br>
+const fruits = ["mango","jackfruits"]<br>
+const combine = perfumes.concat(fruits)<br>
+console.log(perfumes);<br>
+console.log(fruits);<br>
+console.log(combine);<br>
+/// Task 5 : Combining Arrays  <End> ///
+
+-------------------------------------------------------------------------------
+Agian sumup:<br>
+/// we can use length using >>>> ArrayName.length()<br>
+/// we can use index using >>>> ArrayName[indexNumber]<br>
+/// we can use push using >>>> ArrayName.push(desired number)<br>
+/// we can use pop using >>>> ArrayName.pop()<br>
+/// we can use shift using >>>> ArrayName.shift()<br>
+/// we can use unshift using >>>> ArrayName.unshift(desired number)<br>
+/// we can use includes using >>>> ArrayName.includes(desired number) // true or flase ///<br>
+/// we can use index of  using >>>> ArrayName.indexof(desired element name) // index number show korbe ///<br>
+/// we can use isArray  using >>>> Array.isArray(array name) // true or false ///<br>
+/// we can use join  using >>>> Arrayname.join("+/-/*/,|") // returns string ///<br>
+/// we can use concat using >>>> use FirstArrayName.concat(secondArrayname) // returns total array ///<br>
+/// we can use slice using >>>> use arrayName.slice(2,5) // from 2 to 4 index /// out put show (2to3index)<br>
+
+                        Complete All Task   <End>
+==========================================================================================
+
+
 
